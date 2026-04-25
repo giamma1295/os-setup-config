@@ -1,0 +1,7 @@
+# Ignore example config files PC dependant, like monitor config and input
+linux-dotfiles/hyprland/.config/hypr/input.conf
+linux-dotfiles/hyprland/.config/hypr/monitors.conf
+
+
+linux-dotfiles/gtk-4.0/.config/gtk-4.0/servers
+linux-dotfiles/gtk-3.0/.config/gtk-3.0/bookmarks
