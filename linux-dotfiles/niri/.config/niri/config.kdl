@@ -14,6 +14,7 @@ input {
         accel-speed 0.4
         accel-profile "flat"
         scroll-method "two-finger"
+        scroll-factor 0.4
     }
 
     mouse {
@@ -213,11 +214,6 @@ window-rule {
     open-fullscreen false
     default-column-width { proportion 0.2; }
     default-window-height { proportion 0.6; }
-}
-// Fix crazy scroll on Helium browser
-window-rule {
-    match app-id="helium"
-    scroll-factor 0.2
 }
 
 window-rule {

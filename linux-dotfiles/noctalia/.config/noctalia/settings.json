@@ -34,7 +34,7 @@
         "spectrumFrameRate": 30,
         "spectrumMirrored": true,
         "visualizerType": "linear",
-        "volumeFeedback": false,
+        "volumeFeedback": true,
         "volumeFeedbackSoundFile": "",
         "volumeOverdrive": false,
         "volumeStep": 5
@@ -101,6 +101,16 @@
                 }
             ],
             "left": [
+                {
+                    "colorizeSystemIcon": "none",
+                    "colorizeSystemText": "none",
+                    "customIconPath": "",
+                    "enableColorization": false,
+                    "icon": "rocket",
+                    "iconColor": "none",
+                    "id": "Launcher",
+                    "useDistroLogo": false
+                },
                 {
                     "clockColor": "none",
                     "customFont": "",
@@ -182,7 +192,7 @@
                 },
                 {
                     "deviceNativePath": "__default__",
-                    "displayMode": "icon-always",
+                    "displayMode": "graphic-clean",
                     "hideIfIdle": false,
                     "hideIfNotDetected": true,
                     "id": "Battery",
@@ -403,7 +413,7 @@
         "lockScreenTint": 0,
         "passwordChars": false,
         "radiusRatio": 1,
-        "reverseScroll": true,
+        "reverseScroll": false,
         "scaleRatio": 1,
         "screenRadiusRatio": 1,
         "shadowDirection": "bottom_right",
@@ -430,7 +440,7 @@
     },
     "idle": {
         "customCommands": "[]",
-        "enabled": true,
+        "enabled": false,
         "fadeDuration": 5,
         "lockCommand": "",
         "lockTimeout": 660,
@@ -448,7 +458,7 @@
         "firstDayOfWeek": -1,
         "hideWeatherCityName": false,
         "hideWeatherTimezone": false,
-        "name": "Messina, Me",
+        "name": "Messina, ME",
         "showCalendarEvents": true,
         "showCalendarWeather": true,
         "showWeekNumberInCalendar": false,
