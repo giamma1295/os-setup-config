@@ -2,6 +2,8 @@
 linux-dotfiles/hyprland/.config/hypr/input.conf
 linux-dotfiles/hyprland/.config/hypr/monitors.conf
 
+linux-dotfiles/niri/.config/niri/input.kdl
+linux-dotfiles/niri/.config/niri/output.kdl
 
 linux-dotfiles/gtk-4.0/.config/gtk-4.0/servers
 linux-dotfiles/gtk-3.0/.config/gtk-3.0/bookmarks
